@@ -1,0 +1,25 @@
+{
+  "name": "traveloka",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "os": "^0.1.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+  
+}
